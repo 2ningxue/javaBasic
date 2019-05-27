@@ -97,8 +97,7 @@ public class HomeWork1 {
                }else {
                    System.out.println("不是回文数");
                }
-           }
-*/
+           }*/
 
 
 //第七题：判断一个年份是平年还是闰年
