@@ -42,13 +42,22 @@ public class HomeWork2 {
     功能：驾驶（void drive( )）    功能：变速（void speedChange(int newSpeed)），把新速度赋给speed
 3）定义主类E，在其main方法中创建Car类的两个对象：aodi和benchi的对 象并测试其对象的特性。
 */
-
+         /* HomeWorktest2  HomeWork2=new  HomeWorktest2();
+        HomeWork2.setMark("aodi");*/
 
           /*5 定义一个学生类 包括 姓名 年龄 分数的特征
     创建五个学生对象 对其中特征进行赋值 赋值后 根据分数从大到小进行排序
 */
-
-
-
+        /*HomeWork2[] stus=new HomeWork2[5];
+for (int i=0;i<stus.length;i++){
+    HomeWork2 student=new HomeWork2();
+    HomeWork2.sname="abc";
+    HomeWork2.score=60+i;
+    stus[i]=HomeWork2;
+}
+for(HomeWorktest2 s:stus){
+    System.out.println(s);
+}
+*/
     }
 }
