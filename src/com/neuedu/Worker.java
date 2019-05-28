@@ -18,7 +18,7 @@ public class Worker {
     }
     public Worker(String name,double computeSalay){
 
-        this.computeSalay=computeSalay;
+     //   this.computeSalay=computeSalay;
     }
 
 
