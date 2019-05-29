@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Student {
    // 1 有五个学生，每个学生有3门课的成绩，从键盘输入以上数据（包括学生号，姓名，三门课成绩），计算出平均成绩
-
+     /* //一种方法：
             String number;
             String name;
             public void Run(){
@@ -31,6 +31,46 @@ public class Student {
                     System.out.println("成绩："+result);
                     System.out.println("名字："+name);
 
-                }
-            }
+                     }*/
+
+
+     private String sno;
+     private  String name;
+     private TestStudent testStudent;
+
+    public String getSno() {
+        return sno;
+    }
+
+    public void setSno(String sno) {
+        this.sno = sno;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public TestStudent getCourse() {
+        return testStudent;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "sno='" + sno + '\'' +
+                ", name='" + name + '\'' +
+                ", testStudent=" + testStudent +
+                '}';
+    }
+
+    public void setCourse(TestStudent course) {
+        this.testStudent = course;
+
+    }
 }
+
+
