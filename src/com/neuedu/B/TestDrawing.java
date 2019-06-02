@@ -15,9 +15,9 @@ public class TestDrawing {
             System.out.println();
 
             System.out.println("请输入圆形的半径");
-            Scanner ridus=new Scanner(System.in);
+            Scanner radius=new Scanner(System.in);
             Circle c=new Circle();
-            c.setRadius(ridus.nextDouble());
+            c.setRadius(radius.nextDouble());
             c.girth();
             c.area();
         }
